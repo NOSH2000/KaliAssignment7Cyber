@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **15** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -11,6 +11,7 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.1.16
     - Fixed in version: 6.0.3
   - [x] GIF Walkthrough: 
+    <img src="yt.gif">
   - [x] Steps to recreate: 
     - Write a post:
     ```
@@ -25,12 +26,14 @@ Time spent: **X** hours spent in total
     - https://wordpress.org/news/2017/03/wordpress-4-7-3-security-and-maintenance-release/
     - https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8
     - https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html
+
 ### 2. CVE-2015-5734: Legacy Theme Preview Cross-Site Scripting (XSS)
   - [x] Summary: 
     - Vulnerability types: XSS 
     - Tested in version: 4.1.7
     - Fixed in version: 4.2.4
   - [x] GIF Walkthrough: 
+    <img src="mouseover.gif">
   - [x] Steps to recreate: 
     - Comment under any post
     ```
@@ -45,13 +48,14 @@ Time spent: **X** hours spent in total
     - [Blog](https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html)
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5734
     - https://wpscan.com/vulnerability/7d99fa14-0b94-4e9a-9fc0-d3f22648be4e)
+
 ### 3.  CVE-2016-4566: Pupload Same Origin Method Execution (SOME)
   - [x] Summary: 
     - Vulnerability types: Xss
     - Tested in version: 4.1.11
     - Fixed in version: 4.5.2
   - [x] GIF Walkthrough: 
-  <img src="button.png">
+    <img src="button.gif">
   - [x] Steps to recreate: 
     - Post a comment with:
     ```
